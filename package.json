@@ -11,8 +11,9 @@
     "electron-prebuilt": "^0.35.2"
   },
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "build:win": "electron-packager . todo --out=dist/ --platform=win32 --arch=x64 --icon=icon.ico --version-string.LegalCopyright=\"MIT License | Copyright (c) 2016 Risabh Kumar\" --version-string.CompanyName=\"rahulpsd18\" --version-string.ProductName=\"ToDo\" --version-string.FileDescription=\"A Todo Desktop App\" --asar=true --overwrite"
   },
   "author": "rahulpsd18",
-  "license": "ISC"
+  "license": "MIT"
 }

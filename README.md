@@ -13,10 +13,14 @@ It is assumed that you have [npm](https://www.npmjs.com/) package manager instal
 ###Installation
 The necessary dependencies are in the package.json file so just run `npm install` to get them installed.
 
-# Running the application
+###Running the application
 To start the appication, simply run `npm start`
 
+# Creating an executable package
+- To create a windows executable package, run `npm run build:win` and once successfully completed, check dist/todo-win32-x64
+
 # Task List
-- [ ] Use [electron-packager](https://github.com/electron-userland/electron-packager) to create a executable file
+- [x] ~~Use [electron-packager](https://github.com/electron-userland/electron-packager) to create a executable file~~
 - [ ] Create a single setup package to help distribute the app
 - [ ] Create taskbar accessible version using [menubar](https://github.com/maxogden/menubar)
+- [ ] Add electron-packager build script for other platforms
