@@ -1,0 +1,18 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A Todo Windows Desktop App",
+  "main": "main.js",
+  "dependencies": {
+    "pretty-bytes": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.3.0",
+    "electron-prebuilt": "^0.35.2"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "rahulpsd18",
+  "license": "ISC"
+}
